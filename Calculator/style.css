@@ -1,0 +1,42 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background:grey
+
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 80px;
+    width:400px;
+    
+}
+
+.output-container{
+    display:grid;
+    grid-column: 1/5;
+    align-items: center;
+    justify-content: end;
+    padding-right:20px;
+    background-color:black;
+    color:white;
+}
+.container{
+    border:5px solid #000;
+    border-radius: 10px;
+}
+
+button,div{
+    font-size: 30px;
+
+}
+.result{
+   background: grey;
+   color:white
+}
+#operator{
+    background:orange;
+    
+}
